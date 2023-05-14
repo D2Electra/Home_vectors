@@ -4,7 +4,7 @@ save_data_on_exit = True
 save_history = True
 save_non_project_files = False
 project_type = 'empty-project-type'
-recent_files = ['..\\..\\..\\garmonogfaf.py', '..\\..\\..\\text.py']
+recent_files = ['__main__.py', '_exp_3.py', '_system_.py', '__exp__4.py', '__exp__5.py', '_exp_6.py', '_exp_7.py', '_image_.py']
 
 [main]
 version = 0.2.0

@@ -8,7 +8,7 @@ class Point (object):
         self.velocity = py5.Py5Vector(py5.random(0.03), py5.random(0.9))
         self.acceleration = py5.Py5Vector(0, 0)
         #self.diameter = random.randint(5, 50)
-        self.c = py5.color(255, 211, 0)
+        self.c = py5.color(255, 255, 255)
         
     def move(self):
         self.velocity += self.acceleration
@@ -19,7 +19,7 @@ class Point (object):
         py5.push_matrix()
         py5.translate(self.position.x, self.position.y)
         py5.stroke(self.c)
-        py5.stroke_weight(5)
+        py5.stroke_weight(1)
         py5.point(0, 0)
         py5.pop_matrix()
     
